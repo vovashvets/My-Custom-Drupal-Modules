@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="col-6">
+    {% if "future" in test_var %}
+      <span id="link">/node/{{ test_new }}/congress/past</span>
+      <input type="range" min="1" max="100" value="1" class="slider" id="myRange">
+    {% endif %}
+
+    {% if "past" in test_var %}
+      <span id="link">/node/{{ test_new }}/congress/future</span>
+      <input type="range" min="1" max="100" value="100" class="slider" id="myRange">
+    {% endif %}
+
+    <div class="row">
+      <div class="col-6">
+        <div>Future</div>
+      </div>
+      <div class="col-6 text-right">
+        <div>Past</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<style>
+  {% if "future" in test_var %}
+    .slider::-webkit-slider-thumb {
+      /*background: url('');*/
+      background-color: #b47b0a;
+    }
+  .slider::-moz-range-thumb {
+    background-color: #b47b0a;
+  }
+  {% endif %}
+
+  {% if "past" in test_var %}
+  .slider::-webkit-slider-thumb {
+    /*background: url('');*/
+    background-color: #0a6eb4;
+  }
+  .slider::-moz-range-thumb {
+    background-color: #0a6eb4;
+  }
+  {% endif %}
+</style>

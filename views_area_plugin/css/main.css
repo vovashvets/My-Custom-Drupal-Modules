@@ -1,0 +1,30 @@
+#link{
+  display: none;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 28px;
+  background: #e5e5e5;
+  border-radius: 14px;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50%;
+  height: 28px;
+  background-color: #0a6eb4;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 50%;
+  height: 28px;
+  background-color: #b40a0a;
+  cursor: pointer;
+}

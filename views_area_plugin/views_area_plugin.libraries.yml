@@ -1,0 +1,11 @@
+views_area_plugin_library:
+  version: 1
+  css:
+    theme:
+      css/main.css: {}
+    component:
+      //stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css: { }
+  js:
+    js/main.js: {}
+    //cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js: { }
+    //stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js: { }

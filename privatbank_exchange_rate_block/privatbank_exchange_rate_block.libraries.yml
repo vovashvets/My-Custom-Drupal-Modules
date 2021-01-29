@@ -1,0 +1,6 @@
+privatbank_exchange_rate_block_lib:
+  version: VERSION
+  css:
+    component:
+      assets/css/card.css: {}
+      assets/css/tumbler.css: {}

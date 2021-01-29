@@ -1,0 +1,65 @@
+<div class="container">
+
+  <input type="checkbox" id="tumbler-input" name="tumbler"/>
+
+  <label id="tumbler-label" for="tumbler-input">
+    <span class="tumbler-text">Cash</span>
+    <span class="tumbler-text">Non-cash</span>
+  </label>
+
+  <div class="flip-card-wrapper">
+    <div class="card-wrapper">
+
+      <div class="card-front">
+          <table class="currency-table">
+            <thead>
+            <tr>
+              <th>Currency code</th>
+              <th>Buy</th>
+              <th>Sale</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for currency  in response_cash %}
+              <tr>
+                {% for value in currency %}
+                  <td class="currency-table-val">
+                    {{ value }}
+                  </td>
+                {% endfor %}
+              </tr>
+            {% endfor %}
+            </tbody>
+          </table>
+      </div>
+
+      <div class="card-back">
+          <table class="currency-table">
+            <thead>
+            <tr>
+              <th>Currency code</th>
+              <th>Buy</th>
+              <th>Sale</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for currency  in response_not_cash %}
+              <tr>
+                {% for value in currency %}
+                  <td class="currency-table-val">
+                    {{ value }}
+                  </td>
+                {% endfor %}
+              </tr>
+            {% endfor %}
+            </tbody>
+          </table>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+

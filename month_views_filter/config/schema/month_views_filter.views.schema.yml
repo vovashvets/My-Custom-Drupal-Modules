@@ -1,0 +1,7 @@
+views.filter_value.FILTER_ID:
+  type: mapping
+  label: 'Month Filter'
+  mapping:
+    filter_month:
+      type: string
+      label: 'Filter Month'

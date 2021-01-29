@@ -1,0 +1,5 @@
+name: 'Views Area Custom Plugin'
+type: module
+description: 'Provides two links to the same view on the different pages.'
+package: Shvets
+core_version_requirement: ^8 || ^9

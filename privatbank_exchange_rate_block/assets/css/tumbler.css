@@ -1,0 +1,37 @@
+#tumbler-input{
+  position: absolute;
+  left: -9999px;
+}
+
+.tumbler-text {
+  z-index: 2;
+  color: #fff;
+}
+
+#tumbler-label {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 300px;
+  height: 35px;
+  line-height: 35px;
+  cursor: pointer;
+  background-color: #dadada;
+  color: #fff;
+}
+
+#tumbler-label:after{
+  position: absolute;
+  content: '';
+  background-color: #737373;
+  width: 50%;
+  height: 100%;
+  display: block;
+  left: 0;
+  transition: 0.3s;
+}
+
+#tumbler-input:checked + #tumbler-label:after {
+  left: 50%;
+}

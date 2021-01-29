@@ -1,0 +1,15 @@
+<?php
+
+/**
+* Implements hook_theme().
+*/
+function views_area_plugin_theme($existing, $type, $theme, $path) {
+  return [
+    'input_range_template' => [
+    'variables' => [
+      'test_var' => NULL,
+      'test_new' => NULL,
+    ],
+    ],
+  ];
+}

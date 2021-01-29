@@ -1,0 +1,7 @@
+month_views_filter-filter-library:
+  css:
+    theme:
+      assets/css/datepicker.css: {}
+  js:
+    assets/js/datepicker.min.js: {}
+    assets/js/main.js: {}

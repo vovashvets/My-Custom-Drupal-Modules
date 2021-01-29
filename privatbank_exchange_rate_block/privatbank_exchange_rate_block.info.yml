@@ -1,0 +1,5 @@
+name: Privatbank Exchange Rate Block
+type: module
+description: 'Provides Privatbank Exchange Rate in Block. Base currency is UAH.'
+package: Shvets
+core_version_requirement: ^8 || ^9
