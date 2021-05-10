@@ -1,0 +1,13 @@
+field.field_settings.notes:
+  type: mapping
+  label: 'Notes Field Widget Settings'
+  mapping:
+    value:
+      type: text
+      label: 'Notes body'
+    uid:
+      type: int
+      label: 'Uid'
+    created:
+      type: int
+      label: 'Created фе'

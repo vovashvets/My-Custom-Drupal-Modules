@@ -1,0 +1,5 @@
+name: Notes Field
+type: module
+description: 'A field containing a long string value with user id and creation time'
+package: AWG
+core_version_requirement: ^8 || ^9
